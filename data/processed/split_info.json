@@ -1,0 +1,13 @@
+{
+  "n_obs": 800,
+  "n_test": 160,
+  "cut_index": 640,
+  "index_start": "1959-02-01",
+  "index_end": "2025-09-01",
+  "test_fraction": 0.2,
+  "columns": [
+    "M2SL",
+    "M2_log",
+    "g"
+  ]
+}

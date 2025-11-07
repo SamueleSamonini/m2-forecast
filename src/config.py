@@ -17,6 +17,6 @@ LEVEL_COL = "M2SL"
 LOG_COL = "M2_log"
 TARGET_COL = "g"      # Monthly Growth Rate of M2 = 100 * diff(log(M2))
 
-ARIMA_ORDER = (p, 0, q)
-SEASONAL_ORDER = (P, 0, Q, 12)
-ARIMA_TREND = "n"  # or "c"
+ARIMA_ORDER = (1, 0, 1)
+SEASONAL_ORDER = (0, 0, 0, 0)  # nessuna stagionalità
+ARIMA_TREND = "c"              # con costante
